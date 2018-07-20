@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>wdshell</groupId>
+    <artifactId>wdshell</artifactId>
+    <version>0.0.1</version>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>netcracker.atp.wdshell</groupId>
+            <artifactId>wdShellCore</artifactId>
+            <version>1.2.6</version>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>ta.atp.mvn</id>
+            <url>https://artifactorycn.netcracker.com/ta.atp.mvn/</url>
+        </repository>
+        <repository>
+            <id>ta.atp.mvn.snapshots</id>
+            <url>https://artifactorycn.netcracker.com/ta.atp.mvn.snapshots/</url>
+        </repository>
+    </repositories>
+
+
+</project>
